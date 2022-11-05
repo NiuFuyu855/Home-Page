@@ -1,4 +1,6 @@
 # NutssssIndex
+[![Netlify Status](https://api.netlify.com/api/v1/badges/85235197-e2f8-4bef-861a-0f869ff64b66/deploy-status)](https://app.netlify.com/sites/niufuyu/deploys)
+
 简约个人主页、自适应  
 **[点我预览](https://n0ts.cn)**
 ![alt 预览图](https://images.gitee.com/uploads/images/2020/0525/000514_3cb0b6fa_2250179.png)
