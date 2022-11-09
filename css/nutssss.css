@@ -306,7 +306,7 @@ body {
 
     .meBox:hover {
         width: 21rem;
-        height: 26rem;
+        height: 34rem;
         margin: 95px 0 0 2.5%;
     }
 
@@ -323,7 +323,7 @@ body {
 
     .meBox:hover {
         width: 20rem;
-        height: 25rem;
+        height: 34rem;
         margin: 105px auto 100px;
     }
 
@@ -357,7 +357,7 @@ body {
 
     .meBox:hover {
         width: 300px;
-        height: 25rem;
+        height: 32rem;
         margin: 100px auto 100px;
     }
 
