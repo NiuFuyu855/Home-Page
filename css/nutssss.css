@@ -106,7 +106,7 @@ body {
 
 .meBox-text {
     width: 80%;
-    height: 45%;
+    height: 29.8%;
     overflow: hidden;
     text-align: center;
     color: rgb(70, 70, 70);
@@ -302,12 +302,13 @@ body {
 
     .meBox {
         margin-left: 3%;
+        margin-right: -5px;
     }
 
     .meBox:hover {
         width: 21rem;
-        height: 26rem;
-        margin: 95px 0 0 2.5%;
+        height: 34rem;
+        margin: 95px -5px 0 2.5%;
     }
 
     #cmdBox {
@@ -318,6 +319,7 @@ body {
 @media screen and (max-width: 1120px) {
     .meBox {
         float: none;
+        height: 30rem;
         margin: 100px auto 100px;
     }
 
@@ -353,6 +355,7 @@ body {
 @media screen and (max-width: 768px) {
     .meBox {
         width: 300px;
+        height: 30rem;
     }
 
     .meBox:hover {
