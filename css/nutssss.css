@@ -24,11 +24,15 @@ body {
 }
 
 .meBox {
+    /* 新增的*/
+    display: table;
+    position: relative;
     float: left;
     width: 20rem;
-    height: 36rem;
+    /* height: 0px; */
     background-color: white;
     margin-top: 100px;
+    top: -10%;
     border-radius: 2%;
     transition: all 0.3s;
     text-align: center;
@@ -36,7 +40,7 @@ body {
 
 .meBox:hover {
     width: 21rem;
-    height: 34rem;
+    /* height: 0px; */
     margin: 95px 0 0 -5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
@@ -50,6 +54,7 @@ body {
     position: relative;
     top: -15%;
     left: 50%;
+    margin-top: -4.5rem;
     margin-left: -4rem;
     transition: all 0.3s;
 }
@@ -57,7 +62,7 @@ body {
 .meBox:hover .headPhoto {
     width: 9rem;
     height: 9rem;
-    margin: -0.5rem 0 0 -4.5rem;
+    margin: -5.5rem 0 0 -4.5rem;
     transform: rotate(360deg);
 }
 
@@ -89,7 +94,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(20, end), blink-caret .3s step-end infinite alternate;
-    margin: -30px 0 0 90px;
+    margin: 18px 0 0 90px;
     transition: all 0.3s;
 }
 
@@ -106,7 +111,7 @@ body {
 
 .meBox-text {
     width: 80%;
-    height: 45%;
+    height: 29.8%;
     overflow: hidden;
     text-align: center;
     color: rgb(70, 70, 70);
@@ -139,8 +144,15 @@ body {
 
 .meBox-Button {
     width: 100%;
+    /*在这里该宽度*/
+    padding-bottom: 15rem;
+    transition: all 0.5s;
 }
+.meBox:hover .meBox-Button{
+    /*这里改悬浮后缩小到某个宽度*/
+    padding-bottom: 10rem;
 
+}
 .meBox-Button a {
     display: inline-block;
     float: left;
@@ -156,6 +168,7 @@ body {
 .meBox-Button a:hover {
     color: rgb(0, 132, 255);
     font-size: 1.2rem;
+
 }
 
 .meBox:hover .meBox-Button a {
@@ -284,7 +297,9 @@ body {
     margin-bottom: 30px;
     /* background-color: blue; */
 }
-
+#footer p{
+    
+}
 #footer a {
     text-decoration: none;
     color: white;
@@ -302,12 +317,13 @@ body {
 
     .meBox {
         margin-left: 3%;
+        margin-right: -5px;
     }
 
     .meBox:hover {
         width: 21rem;
-        height: 34rem;
-        margin: 95px 0 0 2.5%;
+        /* height: 34rem; */
+        margin: 95px -5px 0 2.5%;
     }
 
     #cmdBox {
@@ -318,13 +334,16 @@ body {
 @media screen and (max-width: 1120px) {
     .meBox {
         float: none;
+        /* height: 30rem; */
         margin: 100px auto 100px;
     }
 
     .meBox:hover {
         width: 20rem;
-        height: 34rem;
-        margin: 105px auto 100px;
+
+        /* height: 25rem; */
+        margin: 100px auto 100px;
+
     }
 
     .meBox:hover .meBox-Button a {
@@ -340,10 +359,15 @@ body {
     .meBox:hover .headPhoto {
         width: 8rem;
         height: 8rem;
-        margin: -0.5rem 0 0 -4rem;
+        margin: -5.5rem 0 0 -4rem;
         transform: rotate(360deg);
     }
-
+    .meBox-Button{
+        margin-top: 13px;
+    }
+    .meBox:hover .meBox-text {
+        font-size: 1rem;
+    }
     #cmdBox {
         float: none;
         margin: 0 auto 100px;
@@ -353,11 +377,12 @@ body {
 @media screen and (max-width: 768px) {
     .meBox {
         width: 300px;
+        /* height: 30rem; */
     }
 
     .meBox:hover {
         width: 300px;
-        height: 32rem;
+        /* height: 25rem; */
         margin: 100px auto 100px;
     }
 
@@ -377,7 +402,7 @@ body {
     .meBox:hover .headPhoto {
         width: 8rem;
         height: 8rem;
-        margin: -0.5rem 0 0 -4rem;
+        margin: -5.5rem 0 0 -4rem;
         transform: rotate(360deg);
     }
 
