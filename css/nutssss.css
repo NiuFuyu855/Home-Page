@@ -340,8 +340,10 @@ body {
 
     .meBox:hover {
         width: 20rem;
+
         /* height: 25rem; */
         margin: 100px auto 100px;
+
     }
 
     .meBox:hover .meBox-Button a {
