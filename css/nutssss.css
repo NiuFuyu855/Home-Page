@@ -150,7 +150,7 @@ body {
 }
 .meBox:hover .meBox-Button{
     /*这里改悬浮后缩小到某个宽度*/
-    padding-bottom: 14rem;
+    padding-bottom: 13rem;
 
 }
 .meBox-Button a {
