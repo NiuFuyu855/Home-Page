@@ -40,7 +40,7 @@ body {
 
 .meBox:hover {
     width: 21rem;
-    /* height: 0px; */
+
     margin: 95px 0 0 -5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
@@ -62,7 +62,7 @@ body {
 .meBox:hover .headPhoto {
     width: 9rem;
     height: 9rem;
-    margin: -5.5rem 0 0 -4.5rem;
+    margin: 1rem 0 0 -4.5rem;
     transform: rotate(360deg);
 }
 
@@ -359,7 +359,7 @@ body {
     .meBox:hover .headPhoto {
         width: 8rem;
         height: 8rem;
-        margin: -5.5rem 0 0 -4rem;
+        margin: 1rem 0 0 -4rem;
         transform: rotate(360deg);
     }
     .meBox-Button{
@@ -402,7 +402,7 @@ body {
     .meBox:hover .headPhoto {
         width: 8rem;
         height: 8rem;
-        margin: -5.5rem 0 0 -4rem;
+        margin: 1rem 0 0 -4rem;
         transform: rotate(360deg);
     }
 
